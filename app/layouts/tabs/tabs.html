@@ -1,0 +1,48 @@
+<top-nav></top-nav>
+<section class="main-container">
+    <tabset class="cwtabs">
+
+        <tab [active]="activeTab == 'buttons'"
+             (select)="activeTab = 'buttons'">
+            <template tabHeading>Buttons</template>
+            <buttons-tab></buttons-tab>
+        </tab>
+
+        <tab [active]="activeTab == 'form'"
+             (select)="activeTab = 'form'">
+            <template tabHeading>Form</template>
+            <form-tab></form-tab>
+        </tab>
+
+        <tab [active]="activeTab == 'grid'"
+             (select)="activeTab = 'grid'">
+            <template tabHeading>Grid</template>
+            <grid-tab></grid-tab>
+        </tab>
+
+        <tab [active]="activeTab == 'image'"
+             (select)="activeTab = 'image'">
+            <template tabHeading>Image</template>
+            <image-tab></image-tab>
+        </tab>
+
+        <tab [active]="activeTab == 'loader'"
+             (select)="activeTab = 'loader'">
+            <template tabHeading>Loader</template>
+            <loader-tab></loader-tab>
+        </tab>
+
+        <tab [active]="activeTab == 'modal'"
+             (select)="activeTab = 'modal'">
+            <template tabHeading>Modal</template>
+            <modal-tab></modal-tab>
+        </tab>
+
+        <tab [active]="activeTab == 'table'"
+             (select)="activeTab = 'table'">
+            <template tabHeading>Table</template>
+            <table-tab></table-tab>
+        </tab>
+
+    </tabset>
+</section>

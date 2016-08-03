@@ -1,0 +1,32 @@
+.cwtabs {
+  > ul {
+    > li {
+      background: #e3ebf2; /* Old browsers */
+      background: -moz-linear-gradient(top,  #e3ebf2 0%, #c5d3e7 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(top,  #e3ebf2 0%,#c5d3e7 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom,  #e3ebf2 0%,#c5d3e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3ebf2', endColorstr='#c5d3e7',GradientType=0 ); /* IE6-9 */
+      border-top: 1px solid #A5BFDC;
+      border-right: 1px solid #A5BFDC;
+      border-bottom: none;
+      border-left: 1px solid #A5BFDC;
+      font-size: 13px;
+      margin: 0 3px -1px 0 !important;
+      -webkit-border-radius: 4px 4px 0 0;
+      border-radius: 4px 4px 0 0;
+      > a {
+        padding: 4px 8px !important;
+        border: none !important;
+        background-color: transparent !important;
+        color: #000 !important
+      }
+    }
+    li.active {
+      border-color: #CCC #CCC transparent !important;
+      > a {
+        background-color: #FFFFFF !important;
+        color: #555 !important
+      }
+    }
+  }
+}
